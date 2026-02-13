@@ -1,0 +1,39 @@
+/* 1 */
+/* Class selector — გამოიყენება ელემენტების სტილის მისაცემად სახელის მიხედვით. იყენება გასტილვისთვის*/
+
+/* ID selector — გამოიყენება უნიკალური ელემენტის გასასტილად. */
+
+/* 2 */
+/* class — შეიძლება ბევრ ელემენტზე შეიძლება იყოს გამოყენებული */
+/* id — უნიკალურია ანუ მარტო ერთ კონკრეტულ ელემენტ-ზე იქნება  */
+
+/* 3 */
+h1 {
+  color: black;
+  background-color: lightgray;
+}
+
+.group {
+  color: white;
+  background-color: blue;
+}
+
+#unique {
+  color: yellow;
+  background-color: red;
+}
+/* 4 */
+div {
+  width: 150px;
+  height: 80px;
+  background-color: lightgray;
+  margin: 10px;
+}
+
+.box {
+  background-color: lightblue;
+}
+
+#special {
+  background-color: orange;
+}

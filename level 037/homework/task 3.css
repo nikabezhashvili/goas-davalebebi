@@ -1,0 +1,25 @@
+.p_class{
+    color: white;
+    background-color: black;
+    border: 5px;
+    border-radius: 10px;
+}
+
+#pp{
+    color: blue;
+    background-color: blueviolet;
+    border-radius: 50px;
+}
+
+.b_class{
+    color: aqua;
+    background-color: brown;
+    border-radius: 20px;
+}
+
+#bt{
+    color: chartreuse;
+    background-color: chocolate;
+    border-radius: 100px;
+    border: none;
+}
