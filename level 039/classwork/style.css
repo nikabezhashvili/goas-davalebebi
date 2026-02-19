@@ -1,0 +1,76 @@
+/* 1 */
+
+/* 
+CSS Priority განსაზღვრავს რომელი სტილი იმოქმედებს
+
+გაბუ ზევიდან ქვევით ჩამოვწერ 👌😅
+
+1) Inline styles ყველაზე მაღალი პრიორიტეტი 
+
+2) ID selector მეორე ადგილზეა 
+
+3) Class მესამე დონე 
+
+4) Element ყველაზე დაბალი დონე    
+*/
+
+/* 2 */
+
+#p_1{
+    color:aliceblue ;
+    background-color:antiquewhite ;
+}
+#p_2{
+    color:aqua ;
+    background-color:aquamarine ;
+}
+#p_3{
+    color:beige ;
+    background-color:bisque ;
+}
+#p_4{
+    color:black ;
+    background-color:blanchedalmond ;
+}
+#p_5{
+    color:blue ;
+    background-color:blueviolet ;
+}
+
+/* 3 */
+.h1 {
+    color: blue;
+    text-align: center;
+    font-size: 32px;
+}
+
+/* 4 */
+
+/* h2 ელემენტები — id selector */
+
+#h2_1 {
+    color: #ff0000;
+}
+
+#h2_2 {
+    color: #00aa00;
+}
+
+#h2_3 {
+    color: #0000ff;
+}
+
+#h2_4 {
+    color: #800080; 
+}
+
+#h2_5 {
+    color: #ff9900; 
+}
+
+
+
+
+
+
+
