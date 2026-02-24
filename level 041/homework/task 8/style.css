@@ -1,0 +1,13 @@
+body{
+    background-color: #ab2a03;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+p{
+    font-size: 24px;
+    text-transform: capitalize;
+    color: white;
+    text-align: center;
+}
