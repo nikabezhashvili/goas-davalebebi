@@ -1,0 +1,30 @@
+/* 1 */
+/* 
+Pseudo Selectors - გვეხმარება ელემენტების მდგომარეობის შეცვლისთვის
+
+:link - Pseudo Selector-ია რომელიც ლინკების გასტილვას სანამ დააჭერ ღილაკს
+
+:hover - Pseudo Selector-ია რის მეშვეობით ჩვენ ვუცვლით ელემენტის სტილს მაუსის ზედ გადატარებით
+
+:active -  Pseudo Selector-ია განსაზხვრავს ელემენტის სტილს როცა ზემოქმედება აქტიურია
+
+*/
+
+/* 2 */
+a:link {
+  color: blue;
+  background-color: brown;
+}
+
+a:visited {
+  color: purple;
+  background-color: aqua;
+}
+a:hover {
+  color: red;
+  background-color: blueviolet;
+}
+a:active {
+  color: green;
+  background-color: chocolate;
+}

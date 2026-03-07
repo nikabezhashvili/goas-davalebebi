@@ -1,0 +1,22 @@
+/* 2 */
+body{
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+#lr{
+    color: white;
+}
+
+#lr:hover{
+    color: blue;
+    font-size: large;
+    background-color: rgb(19, 19, 19);
+}
+a{
+    text-decoration: none;
+
+}
+
+/* 4 */
+/* წავიკითხე */
