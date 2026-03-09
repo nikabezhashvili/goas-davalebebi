@@ -63,8 +63,3 @@ def count_sheep(n):
     for i in range(1, n + 1):
         result += f"{i} sheep..."
     return result
-
-git add .
-git commit -m "second commit"
-git push
-
