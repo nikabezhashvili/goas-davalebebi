@@ -1,0 +1,11 @@
+table{
+    border-radius: 5px;
+    text-align: center;
+}
+thead{
+    background-color: greenyellow;
+}
+
+tbody{
+    background-color: rgb(201, 247, 131);
+}

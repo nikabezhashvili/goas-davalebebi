@@ -1,0 +1,9 @@
+thead {
+    color: white;
+    background-color: rgb(6, 147, 6);
+}
+
+tr:nth-child(even) {
+    color: rgb(6, 147, 6);
+
+}
