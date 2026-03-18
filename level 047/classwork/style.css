@@ -1,0 +1,10 @@
+li{
+    background-color: gray;
+}
+
+ol {
+    list-style-type: decimal;
+    background-color: aqua;
+    width: 130px;
+    border-radius: 50%;
+}

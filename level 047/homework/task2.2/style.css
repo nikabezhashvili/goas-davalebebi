@@ -1,0 +1,40 @@
+button{
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    color: #E2E3F6;
+    background-color:#2F25C3 ;
+}
+
+#div1{
+text-align: center;
+}
+
+input{
+    border-radius: 4px;
+}
+
+#nm input{
+    width: 500px;
+    height: 30px;
+}
+
+#em input{
+    width: 500px;
+    height: 30px;
+}
+
+#ph input{
+    width: 500px;
+    height: 30px;
+}
+
+#mes textarea{
+    width: 500px;
+    height: 100px;
+}
+
+label{
+    font-size: 20px;
+    text-align: left;
+}
