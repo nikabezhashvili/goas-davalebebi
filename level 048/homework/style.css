@@ -1,0 +1,95 @@
+/* 
+2) Box layout არის ვებ-გვერდის ელემენტების განლაგების მეთოდი, რომელიც განისაზღვრება ელემენტების 
+გარშემო არსებული სივრცის მართით Box layout შედგება ოთხი შრისგან:
+1. content
+2. padding
+3. border
+4. margin
+
+4)
+ვივარჯიშე
+
+5) წავიკითხე
+*/
+
+/*3*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    margin: 10px;
+    padding: 16px;
+}
+
+ul{
+    list-style: none;
+}
+
+#g1{
+    width: 900px;
+    border: 5px solid black;
+}
+
+#info{
+    padding:5px;
+    margin:20px;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+nav a{
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+nav{
+    margin-bottom: 20px;
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+#goa_yt{
+    margin: 20px;
+}
+
+hr{
+    height: 5px;
+    background-color: black;
+}
+
+#g2{
+    width: 200px;
+}
+
+#gyt{
+    color: white;
+    background-color: black;
+    
+}
+
+#gyt:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+#gfb{
+    color: white;
+    background-color: black;
+}
+#gfb:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
