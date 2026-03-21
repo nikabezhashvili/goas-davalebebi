@@ -1,0 +1,51 @@
+
+#m {
+    background-color: #707070;
+    padding: 20px;
+    width: 250px;
+}
+
+#b {
+  padding: 20px;
+  background-color: #919191;}
+
+#p {
+    background-color: #C1C1C1;
+    padding: 20px;
+}
+
+#c {
+    text-align: center;
+  background-color: #EAEAEA;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 1 */
+/* 
+box model ეს არის მოდელი რომელიც განსაზღვრავს ელემენტთა სომას და განლაგებას
+ის შედგება margin,padding,border,content-ის გან 
+*/
+
+/* 2 */
+/* 
+CSS Reset არის ერთგვარი განულება 
+ის იწერება ასე
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+სადაც box-sizing: border-box ნიშნავს  ელემენტების ზომას width da height
+*/
