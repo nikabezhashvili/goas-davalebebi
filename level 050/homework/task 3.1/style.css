@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#a{
+    display: flex;
+    border: 2px dotted black;
+    width: 500px;
+    height: 120px;
+}
+
+.b{
+    background-color: #4F79EB;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 15px;
+    font-size: xx-large
+}

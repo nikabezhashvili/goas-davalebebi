@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#a{
+    display: flex;
+    border: 2px dotted #A4A4A4 ;
+    width: 400px;
+    height: 280px;
+    flex-direction: column;
+}
+
+.b{
+    background-color: #4F79EB;
+    width: 380px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 5px;
+}
