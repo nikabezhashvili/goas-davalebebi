@@ -1,0 +1,35 @@
+/* 
+4) ვისაც არ დაგისრულებიათ დაასრულეთ საკლასო
+
+5) ჩანაწერს გადახედეთ თვალია აუცილებლად მნიშვნელოვანი მასალა აიხსნა
+*/
+
+/* 
+1) vh გაიშიფრება როგორც  viewport height და წარმოადგენს ბრაუზერის ფანჯრის ისმაღლის 1%-ს 
+
+*/
+
+/* 2*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#task2_div {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 3),4,5 ყველაფერი შესრულებული მაქვს */

@@ -1,0 +1,22 @@
+#p{
+    display: flex;
+    width: 400px;
+    border: 1px solid black;
+    background-color: red;
+    height: 200px;
+}
+
+#d1,#d2{
+    flex-shrink: 1;
+    width: 200px;
+    background-color: blue;
+}
+#d2{
+    background-color: blueviolet;
+}
+
+#d3{
+    flex-shrink: 0;
+    width: 300px;
+    background-color: brown;
+}

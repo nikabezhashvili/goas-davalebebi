@@ -1,0 +1,80 @@
+/*
+    1) position: absolute; აკეთებს ელემენტის აბსოლუტურ პოზიცირებას მიმდინარე კონტექსტში
+
+    2) position: relative; აკეთებს ელემენტის რელატივურ პოზიცირებას თავის ნორმალურ პოზიციაზე
+
+    3) position: fixed; აკეთებს ელემენტის ფიქსირებულ პოზიცირებას ეკრანზე, არ მოძრაობს გვერდის სქროლირებისას
+
+    4) position: sticky; აკეთებს ელემენტის წებოვან პოზიცირებას, რომელიც იცვლება სქროლირებისას
+
+    5) position: static; არის ელემენტის ნორმალური პოზიცირება, რომელიც არ შეიცავს სპეციალურ პოზიცირებას (მაგრამ ეს ისედაც ქარხნულად აქვს ყველა ელემენტს (👉ﾟヮﾟ)👉 👈(ﾟヮﾟ👈))
+
+    6)  right ელემენტს გადაადგილებს მარჯვნივ
+        left ელემენტს გადაადგილებს მარცხნივ
+        top ელემენტს გადაადგილებს ზემოთ
+        bottom ელემენტს გადაადგილებს ქვემოთ
+*/
+
+/* 7 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* მთავარი wrapper */
+.container{
+    position: relative;
+    width: 612px;
+    height: 400px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/* ჩარჩოები */
+#top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    background: red;
+}
+
+#bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    background: red;
+}
+
+#left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 8px;
+    height: 100%;
+    background: red;
+}
+
+#right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 8px;
+    height: 100%;
+    background: red;
+}

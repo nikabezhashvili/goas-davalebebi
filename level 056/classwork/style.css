@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#c {
+    width: 480px;
+    height: 480px;
+    background: red;
+    position: relative;
+}
+
+#y {
+    width: 140px;
+    height: 140px;
+    background: yellow;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#bc {
+    width: 140px;
+    height: 140px;
+    background: cyan;
+    position: absolute;
+    top: 200px;
+    left: 0;
+}
+
+#p {
+    width: 140px;
+    height: 140px;
+    background: purple;
+    position: absolute;
+    bottom: 0;
+    left: 140px;
+}

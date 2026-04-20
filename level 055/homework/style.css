@@ -1,0 +1,40 @@
+
+/* 
+1) flex-box არის css-ის მოდელი რომლის მეშვეობით შეგვიძლია მარტივად დავალაგოთ ჩვენი ელემენტები  
+
+2) flex-grow არის თვისება რომლის მეშვეობითაც ჩვენ შეგვიძლია გავზარდოთ ყველა ჩვენთვის სასურველი ელემენთი 
+
+3) flex-shrink არის თვისება რომლის მეშვეობითაც ჩვენ შეგვიძლია შევამციროთ ყველა ჩვენთვის სასურველი ელემენთი
+
+5) ვუყურე
+
+*/
+
+/* 4 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#par{
+    display: flex;
+    width: 800px;
+}
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+#child1{
+    flex-grow: 1;
+}
+
+/* საიტზე პირველმა შვილობილმა div-მა გაიზარდა flex-grow თვისებით და მან დაიკავა ყველა თავისუფალი ელემენტი ანუ იყო 100px და გახდა 600px */
