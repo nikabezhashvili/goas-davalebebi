@@ -1,0 +1,17 @@
+body{
+    background-color: lightgray;
+}
+
+h1{
+    color: blue;
+    font-size: 40px;
+}
+
+p{
+    font-family: Arial;
+    background-color: yellow;
+}
+
+li{
+    color: green;
+}
