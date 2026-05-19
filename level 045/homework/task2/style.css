@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    gap: 20px;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    'd1 d1 d2 d2 d2 d3 d3 d3 d3'
+    'd1 d1 d2 d2 d2 d3 d3 d3 d3'
+    'd1 d1 d2 d2 d2 d3 d3 d3 d3'
+    'd1 d1 d4 d4 d5 d5 d5 d6 d6'
+    'd1 d1 d4 d4 d5 d5 d5 d6 d6'
+    'd7 d7 d4 d4 d5 d5 d5 d6 d6'
+    'd7 d7 d8 d8 d8 d9 d9 d6 d6'
+    'd7 d7 d8 d8 d8 d9 d9 d6 d6'
+    'd7 d7 d8 d8 d8 d9 d9 d6 d6'
+    ;
+    background-color: #423E3B;
+
+}
+
+
+
+
+.d1{
+    grid-area: d1;
+    background-color: #F1453D;
+
+}
+.d2{
+    grid-area: d2;
+    background-color: #2CC5CF;
+
+}
+.d3{
+    grid-area: d3;
+    background-color: #D6B26A;
+
+}
+.d4{
+    grid-area: d4;
+    background-color: #D6B26A;
+    
+}
+.d5{
+    grid-area: d5;
+    background-color: #FFFFFF;
+
+}
+.d6{
+    grid-area: d6;
+    background-color: #F1453D;
+    
+}
+.d7{
+    grid-area: d7;
+    background-color: #FFFFFF;
+    
+}
+.d8{
+    grid-area: d8;
+    background-color: #F1453D;
+
+}
+.d9{
+    grid-area: d9;
+    background-color: #2CC5CF;
+
+}

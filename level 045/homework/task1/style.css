@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    'h h h h h h h h h h h h h'
+    'a c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1'
+    'a c2 c2 c2 c2 c2 c2 c3 c3 c3 c3 c3 c3'
+    'f f f f f f f f f f f f f'
+    ;
+
+}
+
+
+:is(header,aside,.c1,.c2,.c3,footer){
+    background-color: #34FF33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+
+header{
+    grid-area: h;
+}
+
+aside{
+    grid-area: a;
+}
+
+.c1{
+    grid-area: c1;
+}
+
+.c2{
+    grid-area: c2;
+}
+
+.c3{
+    grid-area: c3;
+}
+
+footer{
+    grid-area: f;
+}

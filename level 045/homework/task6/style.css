@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    gap: 30px;
+    display: grid;
+    grid-template-areas:
+    'd1'
+    'd2'
+    'd2'
+    'd2'
+    'd3'
+    ;
+    background-color: #FFFFFF;
+    height: 92vh;
+    margin: 40px;
+}
+
+
+#d1{
+    border-radius: 25px;
+    background-color: #FF0000;
+    grid-area: d1;
+}
+#d2{
+    border-radius: 25px;
+    background-color: #ADD8E6;
+    grid-area: d2;
+}
+#d3{
+    border-radius: 25px;
+    background-color: #008000;
+    grid-area: d3;
+}

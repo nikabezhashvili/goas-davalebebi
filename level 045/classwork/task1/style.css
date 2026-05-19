@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    'h h h h h'
+    'n m m m a'
+    'n f f f f';
+
+    grid-template-columns: 120px 1fr 1fr 150px;
+    grid-template-rows: 150px 6fr 1fr 150px ;
+}
+
+:is(header,nav,main,aside,footer){
+    background-color: #4682B4;
+    color: white;
+    padding: 20px;
+    border: 1px solid #69ABD2;
+}
+
+header{
+    grid-area: h;
+}
+
+nav{
+    grid-area: n;
+}
+
+main{
+    grid-area: m;
+}
+
+aside{
+    grid-area: a;
+}
+
+footer{
+    grid-area: f;
+}

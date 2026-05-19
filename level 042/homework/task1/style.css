@@ -1,0 +1,27 @@
+:root{
+    --div-bg: green;
+    --h1-color: blue;
+    --p-fsize: 2rem;
+    --button-border: 3px solid red;
+    --span-color: yellow;
+}
+
+div{
+    background-color: var(--div-bg);
+}
+
+h1{
+    color: var(--h1-color);
+}
+
+p{
+    font-size: var(--p-fsize);
+}
+
+button{
+    border: var(--button-border);
+}
+
+span{
+    color: var(--span-color);
+}
