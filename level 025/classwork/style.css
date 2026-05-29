@@ -1,0 +1,27 @@
+.clas {
+      color: red;
+      background-color: lightyellow;
+      font-size: 20px;
+      text-align: center;
+}
+    
+#id1 {
+      color: purple;
+      background-color: pink;
+      font-size: 24px;
+      text-align: center;
+}
+
+#id2 {
+      color: orange;
+      background-color: lightblue;
+      font-size: 26px;
+      text-align: left;
+}
+
+#id3 {
+      color: brown;
+      background-color: lightgreen;
+      font-size: 28px;
+      text-align: right;
+}
