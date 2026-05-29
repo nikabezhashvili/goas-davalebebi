@@ -1,0 +1,16 @@
+h1 {
+  text-align: center;
+  color: #1a5276;
+}
+ 
+.subject-list {
+  background-color: #d6eaf8;
+  padding: 20px 40px;
+  border-radius: 8px;
+}
+ 
+.description {
+  font-family: Georgia, serif;
+  font-size: 18px;
+}
+ 

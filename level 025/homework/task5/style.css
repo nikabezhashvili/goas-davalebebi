@@ -1,0 +1,16 @@
+#menu-title {
+  font-size: 42px;
+  color: #154360;
+}
+ 
+.menu-item {
+  background-color: #aed6f1;
+  text-align: center;
+  padding: 10px;
+  margin: 5px 0;
+  list-style: none;
+}
+ 
+p {
+  font-family: Georgia, serif;
+}

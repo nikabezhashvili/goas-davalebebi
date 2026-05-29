@@ -1,0 +1,17 @@
+body {
+  margin: 40px;
+  background-color: #f4f4f4;
+}
+ 
+.title {
+  color: #2c3e50;
+  font-size: 48px;
+  text-align: center;
+}
+ 
+.text {
+  font-family: Georgia, serif;
+  background-color: #dfe6e9;
+  padding: 20px;
+  border-radius: 8px;
+}

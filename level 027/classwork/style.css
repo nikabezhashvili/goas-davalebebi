@@ -1,0 +1,36 @@
+body {
+  background-color: #1a1a1a;
+  padding: 30px;
+  font-family: 'Times New Roman', serif;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 22px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 2px solid #c8a96e;
+}
+
+th {
+  background-color: #4a9a9a;
+  color: #ffffff;
+  padding: 12px 15px;
+  border: 1px dashed #c8a96e;
+  font-weight: bold;
+}
+
+td {
+  padding: 12px 15px;
+  border: 1px dashed #c8a96e;
+  color: #1a1a1a;
+  background-color: #f5f0e8;
+}
+
+tr.colored td {
+  background-color: #5bbcbc;
+  color: #1a1a1a;
+}

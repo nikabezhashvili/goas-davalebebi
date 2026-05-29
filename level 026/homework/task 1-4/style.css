@@ -1,0 +1,39 @@
+body {
+  background-color: #f9f9f9;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.main-title {
+  color: #1a3c5e;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 40px;
+  border-bottom: 2px solid #1a3c5e;
+}
+
+/* text-decoration */
+.td-underline   { text-decoration: underline; }
+.td-overline    { text-decoration: overline; }
+.td-linethrough { text-decoration: line-through; }
+.td-none        { text-decoration: none; }
+.td-dashed      { text-decoration: underline dashed; }
+
+/* text-transform */
+.tt-uppercase  { text-transform: uppercase; }
+.tt-lowercase  { text-transform: lowercase; }
+.tt-capitalize { text-transform: capitalize; }
+
+/* text-shadow */
+.ts-simple   { text-shadow: 2px 2px 0px gray; }
+.ts-colored  { text-shadow: 3px 3px 0px #e74c3c; }
+.ts-blur     { text-shadow: 2px 2px 6px #3498db; }
+.ts-multiple { text-shadow: 2px 2px 0px red, -2px -2px 0px blue; }
+.ts-glow     { text-shadow: 0 0 10px #f39c12, 0 0 20px #f39c12; }
+
+/* font-weight & font-family */
+.fw-100    { font-weight: 100; font-family: Georgia, serif; }
+.fw-400    { font-weight: 400; font-family: 'Courier New', monospace; }
+.fw-700    { font-weight: 700; font-family: Verdana, sans-serif; }
+.fw-900    { font-weight: 900; font-family: Tahoma, sans-serif; }
+.fw-italic { font-weight: bold; font-style: italic; font-family: 'Times New Roman', serif; }

@@ -1,0 +1,37 @@
+body {
+  background-color: #eaf4fb;
+  padding: 30px;
+}
+
+#site-title {
+  color: #154360;
+  font-size: 46px;
+  text-align: center;
+  text-shadow: 2px 2px 4px #aab7b8;
+  text-transform: uppercase;
+}
+
+#site-subtitle {
+  background-color: #154360;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  font-family: Georgia, serif;
+}
+
+.site-item {
+  background-color: #aed6f1;
+  text-align: center;
+  padding: 10px;
+  margin: 5px 0;
+  list-style: none;
+  font-family: Verdana, sans-serif;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.site-text {
+  font-family: 'Times New Roman', serif;
+  font-size: 18px;
+  text-decoration: underline dotted #154360;
+}

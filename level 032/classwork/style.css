@@ -1,0 +1,45 @@
+.box {
+  width: 120px;
+  height: 60px;
+  color: white;
+  text-align: center;
+  line-height: 60px;
+  margin: 10px;
+}
+
+/* 1. static */
+.static {
+  position: static; /* default */
+  background: teal;
+}
+
+/* 2. relative */
+.relative {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  background: orange;
+}
+
+/* 3. absolute */
+.absolute {
+  position: absolute;
+  top: 50px;
+  left: 200px;
+  background: crimson;
+}
+
+/* 4. fixed */
+.fixed {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background: purple;
+}
+
+/* 5. sticky */
+.sticky {
+  position: sticky;
+  top: 0;
+  background: green;
+}
