@@ -1,1 +1,1 @@
-console.log(Boolean(1))
+// no classwork
