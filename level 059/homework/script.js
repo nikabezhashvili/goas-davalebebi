@@ -89,8 +89,10 @@ let result
 
 if (listA.length > listB.length) {
     result = listA.concat(listB)
+    console.log(result);
 } else {
     result = listB.concat(listA)
+    console.log(result);
 }
 
 // 8
