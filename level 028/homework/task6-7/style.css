@@ -1,0 +1,61 @@
+.disc li {
+    list-style-type: disc;
+}
+
+/* 2. Circle */
+.circle li {
+    list-style-type: circle;
+}
+
+/* 3. Square */
+.square li {
+    list-style-type: square;
+}
+
+/* 4. Decimal numbers */
+.decimal li {
+    list-style-type: decimal;
+}
+
+/* 5. Roman numerals */
+.roman li {
+    list-style-type: upper-roman;
+}
+
+
+/* ტასკ 7 */
+/* 
+
+Block ელემენტები: იკავებენ მთელ ხაზს და ყოველთვის 
+ახალ ხაზზე გადადიან. მაგალითად <div> ან <p>. 
+ისინი ქმნიან დიდ „კონტეინერს“.
+
+Inline ელემენტები: იკავებენ მხოლოდ იმდენ ადგილს, 
+რამდენიც ტექსტს სჭირდება და ხაზს არ ტეხენ. 
+მაგალითად <span> ან <a>. ისინი ტექსტში „ჩასმული“ 
+პატარა ელემენტებია. 
+
+Block ელემენტების მაგალითები:
+<div>
+
+<p>
+
+<h1>
+
+<ul>
+
+<section> 
+
+
+Inline ელემენტების მაგალითები:
+<span>
+
+<a>
+
+<strong>
+
+<em>
+
+<img>
+
+*/

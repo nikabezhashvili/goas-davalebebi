@@ -1,0 +1,98 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Container */
+#par {
+  width: 350px;
+  margin: 60px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Title */
+#par h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Tabs */
+#par div {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#par div button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  background: #f0f0f0;
+  color: #333;
+}
+
+#par div button:first-child {
+  border-radius: 5px 0 0 0;
+}
+
+#par div button:last-child {
+  border-radius: 0 5px 0 0;
+  background: #007bff;
+  color: #fff;
+}
+
+/* Inputs */
+#par input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+#par input:focus {
+  border: 1px solid #007bff;
+}
+
+/* Signup button */
+#par > button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#par > button:hover {
+  background: #0056b3;
+}
+
+/* Bottom text */
+#par p {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+}
+
+#par p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#par p a:hover {
+  text-decoration: underline;
+}
