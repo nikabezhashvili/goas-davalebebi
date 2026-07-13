@@ -1,0 +1,18 @@
+/* transition გამოიყენება იმისთვის, რომ ელემენტის ცვლილება მოხდეს ნელა და ანიმაციურად. 
+
+transition-property - განსაზღვრავს, რომელი CSS თვისება შეიცვლება.
+მაგალითი: background, width, height, transform ან all.
+
+transition-duration - განსაზღვრავს, რამდენ ხანს გაგრძელდება ანიმაცია.
+მაგალითი: 0.5s, 1s, 2s.
+
+transition-timing-function - განსაზღვრავს, რა სიჩქარით შესრულდება ანიმაცია.
+მნიშვნელობები: ease, linear, ease-in, ease-out, ease-in-out.
+
+transition-delay - განსაზღვრავს, რამდენი ხნის შემდეგ დაიწყოს ანიმაცია.
+მაგალითი: 0.5s, 1s.
+
+transition - არის მოკლე ჩანაწერი, რომელიც აერთიანებს ყველა ზემოთ ჩამოთვლილ თვისებას.
+მაგალითი:
+transition: all 1s ease 0.5s;
+*/

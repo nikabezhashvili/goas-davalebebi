@@ -1,0 +1,33 @@
+.shape{
+    width: 100px;
+    height: 100px;
+    background: green;
+    margin: 20px;
+    transition: 0.5s;
+}
+
+/* 1 */
+.shape1:hover{
+    transform: rotate(45deg);
+}
+
+/* 2 */
+.shape2:hover{
+    transform: scale(1.3);
+}
+
+/* 3 */
+.shape3:hover{
+    transform: translateX(100px);
+}
+
+/* 4 */
+.shape4:hover{
+    transform: skew(20deg);
+}
+
+/* 5 */
+.shape5:hover{
+    transform: rotate(180deg) scale(1.2);
+    background: orange;
+}

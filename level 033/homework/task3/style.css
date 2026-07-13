@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    width: 250px;
+    height: 120px;
+    margin: 20px;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 120px;
+    color: white;
+}
+
+/* 1. Linear Gradient */
+.linear1{
+    background: linear-gradient(to right, blue, purple);
+}
+
+/* 2. Linear Gradient */
+.linear2{
+    background: linear-gradient(to bottom, red, orange, yellow);
+}
+
+/* 3. Radial Gradient */
+.radial1{
+    background: radial-gradient(circle, white, pink, red);
+}
+
+/* 4. Conic Gradient */
+.conic1{
+    background: conic-gradient(red, yellow, lime, cyan, blue, purple, red);
+}
+
+/* 5. Linear Gradient (დიაგონალური) */
+.mix{
+    background: linear-gradient(45deg, green, cyan, blue);
+}

@@ -1,0 +1,32 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    margin: 20px;
+    transition: 0.5s;
+}
+
+/* 1 */
+.box1:hover{
+    background: red;
+}
+
+/* 2 */
+.box2:hover{
+    width: 200px;
+}
+
+/* 3 */
+.box3:hover{
+    height: 150px;
+}
+
+/* 4 */
+.box4:hover{
+    border-radius: 50%;
+}
+
+/* 5 */
+.box5:hover{
+    opacity: 0.5;
+}
