@@ -1,0 +1,39 @@
+.box1{
+    min-width: 150px;
+    width: 30%;
+    background: lightblue;
+}
+
+.box2{
+    max-width: 400px;
+    width: 100%;
+    background: lightgreen;
+}
+
+.box3{
+    min-width: 200px;
+    max-width: 500px;
+    width: 70%;
+    background: lightcoral;
+}
+
+.box4{
+    min-width: 100px;
+    background: lightyellow;
+}
+
+.box5{
+    max-width: 250px;
+    background: lightgray;
+}
+
+/* 3
+    Box Model არის მოდელი, რომელიც აღწერს თუ როგორ არის აგებული HTML ელემენტი.
+    1. Content - ელემენტის მთავარი შიგთავსი (ტექსტი, სურათი და ა.შ.)
+
+    2. Padding - სივრცე Content-სა და Border-ს შორის.
+
+    3. Border - ელემენტის საზღვარი (ჩარჩო).
+
+    4. Margin - გარე სივრცე ელემენტსა და სხვა ელემენტებს შორის.
+*/
