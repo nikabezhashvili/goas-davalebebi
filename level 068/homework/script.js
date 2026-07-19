@@ -67,7 +67,7 @@ const fullProfile = Object.assign({}, personal,contact)
 const stock = { 
     apples: 10, 
     bananas: 0, 
-    oranges: 5 
+    oranges: 5
 };
 for (let i in stock) {
     if(stock.hasOwnProperty(i) &&stock[i]>0){
