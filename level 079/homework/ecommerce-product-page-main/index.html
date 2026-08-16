@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="left">
+            <h2>sneakers</h2>
+            <nav>
+                <a href="">Collections</a>
+                <a href="">Men</a>
+                <a href="">Women</a>
+                <a href="">About</a>
+                <a href="">Contact</a>
+            </nav>
+        </div>
+        <div id="right">
+            <img src="./images/icon-cart.svg" alt="">
+            <img src="./images/image-avatar.png" alt="">
+        </div>
+    </header>
+    <main>
+        <div id="ml">
+            <div>
+                <img src="./images/image-product-1.jpg" id="img">
+            </div>
+            <div>
+                <button onclick="change1()">
+                    <img src="./images/image-product-1-thumbnail.jpg" alt="" id="img1">
+                </button>
+                <button onclick="change2()">
+                    <img src="./images/image-product-2-thumbnail.jpg" alt="" id="img2">
+                </button>
+                <button onclick="change3()">
+                    <img src="./images/image-product-3-thumbnail.jpg" alt="" id="img3">
+                </button>
+                <button onclick="change4()">
+                    <img src="./images/image-product-4-thumbnail.jpg" alt="" id="img4">
+                </button>
+            </div>
+        </div>
+        <div id="mr">
+            <p>SNEAKER COMPANY</p>
+            <h2>
+                Fall Limited Edition
+                Sneakers
+            </h2>
+            <p>
+                These low-profile sneakers are your perfect casual wear
+                companion. Featuring a durable rubber outer sole, they'll
+                withstand everything the weather can offer.
+            </p>
+            <div id="price">
+                <div>
+                    <p>$125.00</p>
+                    <p>50%</p>
+                </div>
+                <p id="bp">$250.00</p>
+            </div>
+            <div id="d">
+                <div id="count" >
+                    <button id="mines" onclick="mines()">
+                        <img src="./images/icon-minus.svg">
+                    </button>
+                    <p id="value">0</p>
+                    <button id="plus" onclick="plus()">
+                        <img src="./images/icon-plus.svg">
+                    </button>
+                </div>
+                <div id="add">
+                    <img src="./images/icon-cart.svg">
+                    <p>Add to cart</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

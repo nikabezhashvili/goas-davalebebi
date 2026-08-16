@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="par">
+        <div id="dr">
+            <div id="date">
+                <div id="dday">
+                    <label>DAY</label>
+                    <input type="number" placeholder="DD" id="d">
+                </div>
+                <div id="dmon">
+                    <label>MONTH</label>
+                    <input type="number" placeholder="MM" id="m">
+                </div>
+                <div id="dyer">
+                    <label>YEAR</label>
+                    <input type="number" placeholder="YYYY" id="y">
+                </div>
+            </div>
+            <div id="row">
+                <img src="./images/icon-arrow.svg" onclick="count_age()">
+            </div>
+        </div>
+        <div id="res">
+            <div>
+                <i id="year">--</i>
+                <i>years</i>
+            </div>
+            <div>
+                <i id="mon">--</i>
+                <i>months</i>
+            </div>
+            <div>
+                <i id="day">--</i>
+                <i>days</i>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
