@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+div{
+    width: 250px;
+    height: 200px;
+    background-color: rgba(128, 128, 128, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 50px;
+}
