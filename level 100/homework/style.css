@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #E0F1E7;
+    font-family: Karla;
+}
+
+form{
+    height: auto;
+    background-color: white;
+    width: 600px;
+    padding: 30px 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border-radius: 10px;
+}
+
+span{
+    color: hsl(169, 82%, 27%);
+}
+
+
+#fullname{
+    display: flex;
+    gap: 20px;
+}
+
+#fullname #First{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#fullname #First #name_text{
+    display: flex;
+    gap: 10px;
+}
+
+#fullname #last{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#fullname #last #last_text{
+    display: flex;
+    gap: 10px;
+}
+
+#fullname input{
+    width: 255px;
+    height: 40px;
+    padding-left: 20px;
+    border: 1px hsl(169, 82%, 27%) solid;
+    border-radius: 6px;
+}
+
+/*!---------------------------------------------- */
+
+#email_address{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#email_address #email_address_text{
+    display: flex;
+    gap: 10px;
+}
+
+#email_address input{
+    width: 100%;
+    height: 40px;
+    padding-left: 20px;
+    border: 1px hsl(169, 82%, 27%) solid;
+    border-radius: 6px;
+}
+
+/*!---------------------------------------------- */
+
+#query_type{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#query_type #query_type_text{
+    display: flex;
+    gap: 10px;
+}
+
+#query_type #query_type_inputs{
+    display: flex;
+    gap: 20px;
+}
+
+.qtd{
+    padding-left: 15px;
+    border: 1px hsl(169, 82%, 27%) solid;
+    border-radius: 6px;
+    width: 265px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/*!---------------------------------------------- */
+
+
+#message{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#message #message_text{
+    display: flex;
+    gap: 10px;
+}
+
+#message textarea{
+    padding: 10px;
+    border: 1px hsl(169, 82%, 27%) solid;
+    border-radius: 6px;
+    resize: none;
+}
+
+/*!---------------------------------------------- */
+
+#checkbox{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#checkbox #checkbox_text{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#che{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #0C7D69;
+    color: white;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}

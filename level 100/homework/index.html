@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="myForm">
+        <h2>Contact Us</h2>
+        <div id="fullname">
+            <div id="First">
+                <div id="name_text">
+                    <p>First Name</p>
+                    <span>*</span>
+                </div>
+                <input type="text" id="name" name="name">
+                <p id="eror_text_name"></p>
+            </div>
+            <div id="last">
+                <div id="last_text">
+                    <p>Last Name</p>
+                    <span>*</span>
+                </div>
+                <input type="text" name="last_name" id="last_name">
+                <p id="eror_text_surname"></p>
+            </div>
+        </div>
+        <div id="email_address">
+                <div id="email_address_text">
+                    <p>Email_address</p>
+                    <span>*</span>
+                </div>
+                <input type="email" id="email" name="email">
+                <p id="eror_text_email"></p>
+        </div>
+        <div id="query_type">
+            <div id="query_type_text">
+                <p>Query Type</p>
+                <span>*</span>
+            </div>
+            <div id="query_type_inputs">
+                <div class="qtd">
+                    <input type="radio" name="r1" id="r1" value="General_Enquiry">
+                    <label for="r1">General Enquiry</label>
+                </div>
+                <div class="qtd">
+                    <input type="radio" name="r1" id="r2" value="Support_Request">
+                    <label for="r1">Support Request</label>
+                </div>
+            </div>
+            <p id="eror_text_radio"></p>
+        </div>
+        <div id="message">
+            <div id="message_text">
+                <p>Message</p>
+                <span>*</span>
+            </div>
+            <textarea name="mes" id="mes" rows="6"></textarea>
+            <p id="eror_text_mes"></p>
+        </div>
+        <div id="che">
+            <div id="checkbox">
+                <input type="checkbox" name="checkbox">
+                <div id="checkbox_text">
+                    <p>I consent to being contacted by the team</p>
+                    <span>*</span>
+                </div>
+            </div>
+            <p id="eror_text_checkbox"></p>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

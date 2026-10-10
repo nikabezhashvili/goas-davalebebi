@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        div input{
+            width: 200px;
+        }
+        div span{
+            color: red;
+        }
+    </style>
+    
+</head>
+<body>
+    <form id="my_form">
+        <div>
+            <label for="username">username</label>
+            <input type="text" name="username" id="username">
+            <span id="username_eror_text"></span>
+        </div>
+
+        <div>
+            <label for="email">email</label>
+            <input type="email" name="email" id="email">
+            <span id="email_eror_text"></span>
+        </div>
+        
+        <div>
+            <label for="password">password</label>
+            <input type="password" name="password" id="password">
+            <span id="password_eror_text"></span>
+        </div>
+        
+        <div>
+            <label for="age">age</label>
+            <input type="number" name="age" id="age">
+            <span id="age_eror_text"></span>
+        </div>
+
+        <button type="submit">submit</button>
+    </form>
+    <script src="./script.js"></script>
+</body>
+</html>
