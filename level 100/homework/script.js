@@ -1,4 +1,5 @@
 const myForm = document.getElementById('myForm')
+
 myForm.addEventListener('submit',(e) =>{
     e.preventDefault()
     const nameValue = e.target.name.value
