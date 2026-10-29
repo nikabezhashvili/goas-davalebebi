@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+</head>
+<body>
+    <form id="myForm">
+        <label for="fname">enter your fullname</label>
+        <input type="text" id="fname" name="fname">
+        <p id="fnameEror"></p>
+        <br>
+        
+        <label for="email">enter your email</label>
+        <input type="email" id="email" name="email">
+        <p id="emailEror"></p>
+        <br>
+
+        <label for="password">enter your password</label>
+        <input type="password" id="password" name="password" autocomplete="">
+        <button id="see">see</button>
+        <p id="passwordEror"></p>
+        <br>
+
+        <label for="subpassword">submit your password</label>
+        <input type="password" id="subpassword" name="subpassword" autocomplete="">
+        <p id="subpasswordEror"></p>
+        <br>
+        <button type="submit">submit</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
